@@ -1,0 +1,21 @@
+/* 
+  Global CSS Reset — index.css
+  Minimal resets only; all design tokens live in the MUI theme.
+*/
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
